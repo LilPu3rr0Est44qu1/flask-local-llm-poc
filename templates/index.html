@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+    
+        <title>Local LLM Test</title>
+    </head>
+    
+    <body>
+        <h1>RTX4060 Local LLM PoC</h1>
+        
+        <form method="POST">
+            <textarea name="prompt" rows="5" cols="60" placeholder="プロンプトを入力"></textarea><br><br>
+            
+            <input type="submit" value="Generate">
+        </form>
+        
+        <hr>
+        
+        <h2>Result:</h2>
+        
+        <pre style="white-space: pre-wrap;">{{ result }}</pre>
+    </body>
+</html>
